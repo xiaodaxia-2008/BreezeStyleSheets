@@ -2338,7 +2338,7 @@ QToolBox
 QToolBox::tab
 {
     border-bottom: 0.09em solid #bab9b8;
-    /* margin-left: 1.5em; */
+    margin-left: 1.5em;
 }
 
 QToolBox::tab:selected,
