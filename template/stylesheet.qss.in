@@ -1736,19 +1736,28 @@ QDockWidget::close-button:pressed
     image: url(^style^close_pressed.svg);
 }
 
-QTreeView,
-QListView
+QTreeView 
 {
     background-color: ^view:background^;
     border: 0em solid black;
 }
 
+QListView
+{
+    background-color: ^view:background^;
+    border: 1px solid rgb(185,185,185);
+}
+
 QTreeView:selected,
-QTreeView:!selected,
+QTreeView:!selected
+{
+    border: 0em solid black;
+}
+
 QListView:selected,
 QListView:!selected
 {
-    border: 0em solid black;
+    border: 1px solid rgb(185,185,185);
 }
 
 QTreeView::branch:has-siblings
